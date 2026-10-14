@@ -51,6 +51,6 @@
   "generators": {
     "@nx/next": { "application": { "style": "css", "linter": "eslint" } }
   },
-  "nxCloudId": "6acfe037078acbb6108abffb",
+  "nxCloudId": "6acfe149078acbb6108ac00f",
   "nxCloudUrl": "https://snapshot.nx.app"
 }
