@@ -1,0 +1,15 @@
+triggers:
+  pull-requests:
+    event: PR
+    branches: ['main']
+  pushes:
+    event: PUSH
+    branches: ['main']
+
+workflows:
+  main:
+    runs-on: linux-medium-js
+    steps:
+      - name: Run affected tasks
+        script: |
+          npx nx affected -t lint test build
