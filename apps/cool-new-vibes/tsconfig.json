@@ -62,5 +62,31 @@
     "eslint.config.js",
     "eslint.config.cjs",
     "eslint.config.mjs"
+  ],
+  "references": [
+    {
+      "path": "../../packages/config"
+    },
+    {
+      "path": "../../packages/feature-flags"
+    },
+    {
+      "path": "../../packages/time"
+    },
+    {
+      "path": "../../packages/search"
+    },
+    {
+      "path": "../../packages/playlist-engine"
+    },
+    {
+      "path": "../../packages/vibe-scoring"
+    },
+    {
+      "path": "../../packages/vibe-model"
+    },
+    {
+      "path": "../../packages/ui"
+    }
   ]
 }

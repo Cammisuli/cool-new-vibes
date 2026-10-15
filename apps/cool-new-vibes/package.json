@@ -8,6 +8,14 @@
   "dependencies": {
     "next": "~16.1.6",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "@cool-new-vibes/ui": "*",
+    "@cool-new-vibes/vibe-model": "*",
+    "@cool-new-vibes/vibe-scoring": "*",
+    "@cool-new-vibes/playlist-engine": "*",
+    "@cool-new-vibes/search": "*",
+    "@cool-new-vibes/time": "*",
+    "@cool-new-vibes/feature-flags": "*",
+    "@cool-new-vibes/config": "*"
   }
 }

@@ -8,6 +8,57 @@
     },
     {
       "path": "./apps/cool-new-vibes"
+    },
+    {
+      "path": "./packages/logger"
+    },
+    {
+      "path": "./packages/config"
+    },
+    {
+      "path": "./packages/time"
+    },
+    {
+      "path": "./packages/vibe-model"
+    },
+    {
+      "path": "./packages/vibe-scoring"
+    },
+    {
+      "path": "./packages/playlist-engine"
+    },
+    {
+      "path": "./packages/feature-flags"
+    },
+    {
+      "path": "./packages/auth"
+    },
+    {
+      "path": "./packages/analytics"
+    },
+    {
+      "path": "./packages/api-client"
+    },
+    {
+      "path": "./packages/notifications"
+    },
+    {
+      "path": "./packages/search"
+    },
+    {
+      "path": "./packages/moderation"
+    },
+    {
+      "path": "./packages/design-tokens"
+    },
+    {
+      "path": "./packages/ui"
+    },
+    {
+      "path": "./apps/admin-e2e"
+    },
+    {
+      "path": "./apps/admin"
     }
   ]
 }

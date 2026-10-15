@@ -10,6 +10,10 @@ workflows:
   main:
     runs-on: linux-medium-js
     steps:
+      - name: Install Playwright browsers
+        script: |
+          npx playwright install --with-deps
+
       - name: Run affected tasks
         script: |
-          npx nx affected -t lint test build
+          npx nx affected -t lint typecheck test build e2e-ci
