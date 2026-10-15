@@ -9,6 +9,7 @@ triggers:
 workflows:
   main:
     runs-on: linux-medium-js
+    distributes: true
     steps:
       - name: Install Playwright browsers
         script: |

@@ -1,0 +1,7 @@
+dte:
+    distribute-on: 5 linux-medium-js
+lifecycle:
+    stop-after:
+        - build
+        - test
+        - e2e
