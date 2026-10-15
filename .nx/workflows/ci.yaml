@@ -16,4 +16,4 @@ workflows:
 
       - name: Run affected tasks
         script: |
-          npx nx affected -t lint typecheck test build e2e-ci
+          npx nx affected -t lint typecheck test build

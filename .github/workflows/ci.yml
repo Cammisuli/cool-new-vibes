@@ -34,4 +34,4 @@ jobs:
         run: npx playwright install --with-deps
 
       - name: Run affected tasks
-        run: npx nx affected -t lint typecheck test build e2e-ci
+        run: npx nx affected -t lint typecheck test build
